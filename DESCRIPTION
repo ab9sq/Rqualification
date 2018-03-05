@@ -7,7 +7,7 @@ Authors@R: c(person("Nick", "Lauerman", email = "nicholas.lauerman@gmail.com",
 Description: Functions to test R against NIST statisitical data sets. The data
     sets include univeriant, linerar and non linear regression.
 Depends: R (>= 3.4)
-License: MIT
+License: MIT + file LICENSE
 DATE: 2018-03-05
 Encoding: UTF-8
 LazyData: true
