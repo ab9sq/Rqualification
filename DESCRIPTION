@@ -1,0 +1,15 @@
+Package: RQualification
+Title: A series of function to test R against NIST data sets
+Version: 0.0.0.9000
+Authors@R: c(person("Nick", "Lauerman", email = "nicholas.lauerman@gmail.com", 
+    role = c("aut", "cre", "cph")),
+    person("Kim", "Lauerman", role = "ctb"))
+Description: Functions to test R against NIST statisitical data sets. The data
+    sets include univeriant, linerar and non linear regression.
+Depends: R (>= 3.4)
+License: MIT
+DATE: 2018-03-05
+Encoding: UTF-8
+LazyData: true
+Imports: stats (>= 3.4)
+RoxygenNote: 6.0.1
