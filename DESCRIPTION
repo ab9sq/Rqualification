@@ -11,7 +11,8 @@ License: MIT + file LICENSE
 DATE: 2018-03-05
 Encoding: UTF-8
 LazyData: true
-Imports: stats (>= 3.4)
+Imports: stats (>= 3.4),
+         utils (>= 3.4)
 RoxygenNote: 6.0.1
 URL: https://github.com/ab9sq/Rqualification
 BugReports: https://github.com/ab9sq/Rqualification/issues
