@@ -3,7 +3,7 @@
 \docType{data}
 \name{Lew}
 \alias{Lew}
-\title{Lew NIST Univarent Data Set}
+\title{Lew NIST Univarent Data Set.}
 \format{200 observation of 1 variable:}
 \source{
 \url{http://www.itl.nist.gov/div898/strd/univ/lew.html}
@@ -12,6 +12,24 @@
 Lew
 }
 \description{
-INfo on data set
+Dataset of 200 points
+}
+\details{
+This "real world" dataset is the result of a study by H.S. Lew of the Structures
+    Division of the Cednter for Building Technology at the National Institute of
+    Standards & Technology (NIST). The purpose of the study was to characterize
+    the physical behavior of steel-concrete beams under periodic load. The rsponse
+    variable is deflection (from the rest point) of the stel-concrete beam. the 200
+    observations were collected equi-spaced in time.
+
+\tabular{lr}{
+    \strong{Level of Difficulty} \tab Lower\cr
+    \strong{Variables} \tab 1\cr
+    \strong{Observations} \tab 200\cr
+    \strong{First observation} \tab -213\cr
+    \strong{Expected results} (as certified)\tab \cr
+    \strong{Mean} \tab -177.435000000000\cr
+    \strong{Standard Deviation} \tab 277.332168044316\cr
+    \strong{Population lag-1 autocorrelation coefficient} \tab -0.307304800605679\cr}
 }
 \keyword{datasets}
