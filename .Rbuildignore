@@ -1,6 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^CONTRIBUTING\.ms$
 ^CONTRIBUTING\.md$
 ^CONDUCT\.md$
 ^data-raw$
+^README\.md$
