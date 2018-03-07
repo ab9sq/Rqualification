@@ -39,7 +39,7 @@ calculate.lew <- function() {
      s <- stats::sd(RQualification::Lew$V1)
      auto <- stats::acf(RQualification::Lew$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "Lew",
           mean = m,
@@ -47,7 +47,8 @@ calculate.lew <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = -177.435000000000,
           NIST_Standard_Deviation = 277.332168044316,
-          NIST_Autocorrelation_Coefficient = -0.307304800605679
+          NIST_Autocorrelation_Coefficient = -0.307304800605679,
+          stringsAsFactors = FALSE
      )
 }
 
@@ -120,7 +121,7 @@ calculate.NumAcc4 <- function() {
      s <- stats::sd(RQualification::NumAcc4$V1)
      auto <- stats::acf(RQualification::NumAcc4$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "NumAcc4",
           mean = m,
@@ -128,7 +129,8 @@ calculate.NumAcc4 <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = 10000000.2,
           NIST_Standard_Deviation = 0.1,
-          NIST_Autocorrelation_Coefficient = -0.999
+          NIST_Autocorrelation_Coefficient = -0.999,
+          stringsAsFactors = FALSE
      )
 }
 
@@ -204,7 +206,7 @@ calculate.NumAcc3 <- function() {
      s <- stats::sd(RQualification::NumAcc3$V1)
      auto <- stats::acf(RQualification::NumAcc3$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "NumAcc3",
           mean = m,
@@ -212,7 +214,8 @@ calculate.NumAcc3 <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = 1000000.2,
           NIST_Standard_Deviation = 0.1,
-          NIST_Autocorrelation_Coefficient = -0.999
+          NIST_Autocorrelation_Coefficient = -0.999,
+          stringsAsFactors = FALSE
      )
 }
 
@@ -287,7 +290,7 @@ calculate.NumAcc2 <- function() {
      s <- stats::sd(RQualification::NumAcc2$V1)
      auto <- stats::acf(RQualification::NumAcc2$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "NumAcc2",
           mean = m,
@@ -295,7 +298,8 @@ calculate.NumAcc2 <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = 1.2,
           NIST_Standard_Deviation = 0.1,
-          NIST_Autocorrelation_Coefficient = -0.999
+          NIST_Autocorrelation_Coefficient = -0.999,
+          stringsAsFactors = FALSE
      )
 }
 
@@ -369,7 +373,7 @@ calculate.NumAcc1 <- function() {
      s <- stats::sd(RQualification::NumAcc1$V1)
      auto <- stats::acf(RQualification::NumAcc1$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "NumAcc1",
           mean = m,
@@ -377,7 +381,8 @@ calculate.NumAcc1 <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = 10000002,
           NIST_Standard_Deviation = 1,
-          NIST_Autocorrelation_Coefficient = -0.5
+          NIST_Autocorrelation_Coefficient = -0.5,
+          stringsAsFactors = FALSE
      )
 }
 
@@ -454,7 +459,7 @@ calculate.michelso <- function() {
      s <- stats::sd(RQualification::Michelso$V1)
      auto <- stats::acf(RQualification::Michelso$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "Michelso",
           mean = m,
@@ -462,7 +467,8 @@ calculate.michelso <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = 299.852400000000,
           NIST_Standard_Deviation = 0.0790105478190518,
-          NIST_Autocorrelation_Coefficient = 0.535199668621283
+          NIST_Autocorrelation_Coefficient = 0.535199668621283,
+          stringsAsFactors = FALSE
      )
 }
 
@@ -535,7 +541,7 @@ calculate.mavro <- function() {
      s <- stats::sd(RQualification::Mavro$V1)
      auto <- stats::acf(RQualification::Mavro$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "Mavro",
           mean = m,
@@ -543,7 +549,8 @@ calculate.mavro <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = 2.00185600000000,
           NIST_Standard_Deviation = 0.000429123454003053,
-          NIST_Autocorrelation_Coefficient = 0.937989183438248
+          NIST_Autocorrelation_Coefficient = 0.937989183438248,
+          stringsAsFactors = FALSE
      )
 }
 
@@ -617,7 +624,7 @@ calculate.lottery <- function() {
      s <- stats::sd(RQualification::Lottery$V1)
      auto <- stats::acf(RQualification::Lottery$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "Lottery",
           mean = m,
@@ -625,7 +632,8 @@ calculate.lottery <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = 518.958715596330,
           NIST_Standard_Deviation = 291.699727470969,
-          NIST_Autocorrelation_Coefficient = -0.120948622967393
+          NIST_Autocorrelation_Coefficient = -0.120948622967393,
+          stringsAsFactors = FALSE
      )
 }
 
@@ -701,7 +709,7 @@ calculate.PiDigits <- function() {
      s <- stats::sd(RQualification::PiDigits$V1)
      auto <- stats::acf(RQualification::PiDigits$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
-     auto <- auto[2]
+     auto <- as.numeric(auto[2])
      data.frame(
           NIST = "PiDigits",
           mean = m,
@@ -709,7 +717,8 @@ calculate.PiDigits <- function() {
           Autocorrelation_Coefficient = auto,
           NIST_mean = 4.53480000000000,
           NIST_Standard_Deviation = 2.86733906028871,
-          NIST_Autocorrelation_Coefficient = -0.00355099287237972
+          NIST_Autocorrelation_Coefficient = -0.00355099287237972,
+          stringsAsFactors = FALSE
      )
 }
 
