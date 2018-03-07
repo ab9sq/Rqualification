@@ -35,17 +35,16 @@
 
 calculate.lew <- function() {
      options(digits = 15)
-     utils::data("Lew")
-     m <- base::mean(Lew$V1)
-     s <- stats::sd(Lew$V1)
-     auto <- stats::acf(Lew$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::Lew$V1)
+     s <- stats::sd(RQualification::Lew$V1)
+     auto <- stats::acf(RQualification::Lew$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
           NIST = "Lew",
           mean = m,
           Standard_Deviation = s,
-          Autocorrelation_Coefficient= auto,
+          Autocorrelation_Coefficient = auto,
           NIST_mean = -177.435000000000,
           NIST_Standard_Deviation = 277.332168044316,
           NIST_Autocorrelation_Coefficient = -0.307304800605679
@@ -117,17 +116,16 @@ calculate.lew <- function() {
 
 calculate.NumAcc4 <- function() {
      options(digits = 15)
-     utils::data("NumAcc4")
-     m <- base::mean(NumAcc4$V1)
-     s <- stats::sd(NumAcc4$V1)
-     auto <- stats::acf(NumAcc4$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::NumAcc4$V1)
+     s <- stats::sd(RQualification::NumAcc4$V1)
+     auto <- stats::acf(RQualification::NumAcc4$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
           NIST = "NumAcc4",
           mean = m,
           Standard_Deviation = s,
-          Autocorrelation_Coefficient= auto,
+          Autocorrelation_Coefficient = auto,
           NIST_mean = 10000000.2,
           NIST_Standard_Deviation = 0.1,
           NIST_Autocorrelation_Coefficient = -0.999
@@ -202,10 +200,9 @@ calculate.NumAcc4 <- function() {
 
 calculate.NumAcc3 <- function() {
      options(digits = 15)
-     utils::data("NumAcc3")
-     m <- base::mean(NumAcc3$V1)
-     s <- stats::sd(NumAcc3$V1)
-     auto <- stats::acf(NumAcc3$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::NumAcc3$V1)
+     s <- stats::sd(RQualification::NumAcc3$V1)
+     auto <- stats::acf(RQualification::NumAcc3$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
@@ -286,10 +283,9 @@ calculate.NumAcc3 <- function() {
 
 calculate.NumAcc2 <- function() {
      options(digits = 15)
-     utils::data("NumAcc2")
-     m <- base::mean(NumAcc2$V1)
-     s <- stats::sd(NumAcc2$V1)
-     auto <- stats::acf(NumAcc2$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::NumAcc2$V1)
+     s <- stats::sd(RQualification::NumAcc2$V1)
+     auto <- stats::acf(RQualification::NumAcc2$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
@@ -369,10 +365,9 @@ calculate.NumAcc2 <- function() {
 
 calculate.NumAcc1 <- function() {
      options(digits = 15)
-     utils::data("NumAcc1")
-     m <- base::mean(NumAcc1$V1)
-     s <- stats::sd(NumAcc1$V1)
-     auto <- stats::acf(NumAcc1$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::NumAcc1$V1)
+     s <- stats::sd(RQualification::NumAcc1$V1)
+     auto <- stats::acf(RQualification::NumAcc1$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
@@ -455,10 +450,9 @@ calculate.NumAcc1 <- function() {
 
 calculate.michelso <- function() {
      options(digits = 15)
-     utils::data("Michelso")
-     m <- base::mean(Michelso$V1)
-     s <- stats::sd(Michelso$V1)
-     auto <- stats::acf(Michelso$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::Michelso$V1)
+     s <- stats::sd(RQualification::Michelso$V1)
+     auto <- stats::acf(RQualification::Michelso$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
@@ -537,10 +531,9 @@ calculate.michelso <- function() {
 
 calculate.mavro <- function() {
      options(digits = 15)
-     utils::data("Mavro")
-     m <- base::mean(Mavro$V1)
-     s <- stats::sd(Mavro$V1)
-     auto <- stats::acf(Mavro$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::Mavro$V1)
+     s <- stats::sd(RQualification::Mavro$V1)
+     auto <- stats::acf(RQualification::Mavro$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
@@ -620,10 +613,9 @@ calculate.mavro <- function() {
 
 calculate.lottery <- function() {
      options(digits = 15)
-     utils::data("Lottery")
-     m <- base::mean(Lottery$V1)
-     s <- stats::sd(Lottery$V1)
-     auto <- stats::acf(Lottery$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::Lottery$V1)
+     s <- stats::sd(RQualification::Lottery$V1)
+     auto <- stats::acf(RQualification::Lottery$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
@@ -705,10 +697,9 @@ calculate.lottery <- function() {
 
 calculate.PiDigits <- function() {
      options(digits = 15)
-     utils::data("PiDigits")
-     m <- base::mean(PiDigits$V1)
-     s <- stats::sd(PiDigits$V1)
-     auto <- stats::acf(PiDigits$V1, plot=F, lag.max = 1)
+     m <- base::mean(RQualification::PiDigits$V1)
+     s <- stats::sd(RQualification::PiDigits$V1)
+     auto <- stats::acf(RQualification::PiDigits$V1, plot = F, lag.max = 1)
      auto <- unlist(auto)
      auto <- auto[2]
      data.frame(
@@ -748,4 +739,3 @@ calculate.PiDigits <- function() {
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/pidigits.html}
 "PiDigits"
-
