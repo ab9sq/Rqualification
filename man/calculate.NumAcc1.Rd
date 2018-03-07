@@ -2,7 +2,7 @@
 % Please edit documentation in R/univeriant.R
 \name{calculate.NumAcc1}
 \alias{calculate.NumAcc1}
-\title{Univarent analysis of NumAcc3 data set.}
+\title{Univarent analysis of NumAcc1 data set.}
 \usage{
 calculate.NumAcc1()
 }
