@@ -4,3 +4,4 @@
 ^CONDUCT\.md$
 ^data-raw$
 ^README\.md$
+^\.travis\.yml$
