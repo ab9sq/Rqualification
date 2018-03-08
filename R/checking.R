@@ -8,15 +8,16 @@
 #' If the valuse do not agree within the expected degree of machine accuracy,
 #' the data set and statistic are logged.
 #'
+#' Information on machine accuracy can be found at
+#' \url{http://www.validlab.com/goldberg/paper.pdf} and was calculated with
+#' \code{.Machine$double.ebs ^ 0.5}.
+#'
 #'
 #' @return The function returns a vector that shows the version of R the test
 #' was conducted on, the data and time the test was started, the machine
 #' accuracy utilized, the specific data sets run, any noted errors and a count of
 #' errors encountered.
 #'
-#' Information of machine accuracy can be found at
-#' \url{http://www.validlab.com/goldberg/paper.pdf} and was calculated with
-#' \code{.Machine$double.ebs ^ 0.5}.
 #'
 #' @examples
 #' check.univariate()

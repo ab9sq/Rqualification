@@ -36,5 +36,5 @@ Mavro data set and returns a data frame for further evulation.
 }
 \examples{
 calculate.mavro()
-
+a <- calculate.mavro()
 }

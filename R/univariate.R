@@ -30,6 +30,7 @@
 #'
 #' @examples
 #' calculate.lew()
+#' a <- calculate.lew()
 #'
 #' @export
 #'
@@ -84,6 +85,7 @@ calculate.lew <- function() {
 #'
 #' @examples
 #' calculate.NumAcc4()
+#' a <- calculate.NumAcc4()
 #'
 #' @export
 #'
@@ -138,6 +140,7 @@ calculate.NumAcc4 <- function() {
 #'
 #' @examples
 #' calculate.NumAcc3()
+#' a <- calculate.NumAcc3()
 #'
 #' @export
 #'
@@ -191,7 +194,8 @@ calculate.NumAcc3 <- function() {
 #'        }
 #'
 #' @examples
-#' calculate.NumAcc3()
+#' calculate.NumAcc2()
+#' a <- calculate.NumAcc2()
 #'
 #' @export
 #'
@@ -246,6 +250,7 @@ calculate.NumAcc2 <- function() {
 #'
 #' @examples
 #' calculate.NumAcc1()
+#' a <- calculate.NumAcc1()
 #'
 #' @export
 #'
@@ -301,6 +306,7 @@ calculate.NumAcc1 <- function() {
 #'
 #' @examples
 #' calculate.michelso()
+#' a <- calculate.michelso()
 #'
 #' @export
 #'
@@ -356,7 +362,7 @@ calculate.michelso <- function() {
 #'
 #' @examples
 #' calculate.mavro()
-#'
+#' a <- calculate.mavro()
 #' @export
 #'
 
@@ -411,7 +417,7 @@ calculate.mavro <- function() {
 #'
 #' @examples
 #' calculate.lottery()
-#'
+#' a <- calculate.lottery()
 #' @export
 #'
 
@@ -465,7 +471,7 @@ calculate.lottery <- function() {
 #'
 #' @examples
 #' calculate.PiDigits()
-#'
+#' a <- calculate.PiDigits()
 #' @export
 #'
 

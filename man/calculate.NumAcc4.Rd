@@ -36,5 +36,6 @@ NumAcc4 data set and returns a data frame for further evulation.
 }
 \examples{
 calculate.NumAcc4()
+a <- calculate.NumAcc4()
 
 }

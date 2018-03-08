@@ -35,6 +35,7 @@ This function calulates specific Univariate statistics from the NIST
 NumAcc2 data set and returns a data frame for further evulation.
 }
 \examples{
-calculate.NumAcc3()
+calculate.NumAcc2()
+a <- calculate.NumAcc2()
 
 }

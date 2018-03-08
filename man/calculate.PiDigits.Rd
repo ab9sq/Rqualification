@@ -36,5 +36,5 @@ Pi Digits data set and returns a data frame for further evulation.
 }
 \examples{
 calculate.PiDigits()
-
+a <- calculate.PiDigits()
 }

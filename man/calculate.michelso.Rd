@@ -36,5 +36,6 @@ Michelso data set and returns a data frame for further evulation.
 }
 \examples{
 calculate.michelso()
+a <- calculate.michelso()
 
 }

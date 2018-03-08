@@ -36,5 +36,5 @@ Lottery data set and returns a data frame for further evulation.
 }
 \examples{
 calculate.lottery()
-
+a <- calculate.lottery()
 }
