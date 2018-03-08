@@ -22,7 +22,7 @@ respective data set. It then compares the results to the given NIST values.
 If the valuse do not agree within the expected degree of machine accuracy,
 the data set and statistic are logged.
 
-#' Information of machine accuracy can be found at
+Information on machine accuracy can be found at
 \url{http://www.validlab.com/goldberg/paper.pdf} and was calculated with
 \code{.Machine$double.ebs ^ 0.5}.
 }
