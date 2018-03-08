@@ -9,8 +9,6 @@
 #' the data set and statistic are logged.
 #'
 #'
-#' @param none
-#'
 #' @return The function returns a vector that shows the version of R the test
 #' was conducted on, the data and time the test was started, the machine
 #' accuracy utilized, the specific data sets run, any noted errors and a count of

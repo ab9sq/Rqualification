@@ -6,9 +6,6 @@
 \usage{
 check.univariate()
 }
-\arguments{
-\item{none}{}
-}
 \value{
 The function returns a vector that shows the version of R the test
 was conducted on, the data and time the test was started, the machine
