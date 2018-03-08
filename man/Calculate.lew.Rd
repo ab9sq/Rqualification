@@ -11,19 +11,19 @@ A data frame that returns the mean, standard deviation and population
     lag-1 autocorrelation coefficient calculated
     along with the NIST referenced values The data frame is in the same format
     as the data frame result for all NIST Univarent statistic in this dataset.
-    \describe{
-       \item{NIST}{The NIST data set utilized. For this function this value
+    \itemize{
+       \item{\strong{NIST} The NIST data set utilized. For this function this value
        will be Lew}
-       \item{mean}{The R calculated mean from the data set}
-       \item{Standard_Deviation}{The R culculated standard deviation from the
+       \item{\strong{mean} The R calculated mean from the data set}
+       \item{\strong{Standard_Deviation} The R culculated standard deviation from the
        data set}
-       \item{Autocorrelation_Coefficien}{Calculate population lag-1
+       \item{\strong{Autocorrelation_Coefficien} Calculate population lag-1
        autocorrelation coefficient}
-       \item{NIST_mean}{The NIST value of the mean for the data set, provided
+       \item{\strong{NIST_mean} The NIST value of the mean for the data set, provided
        for reference}
-       \item{NIST_Standard_Deviation}{Tne NIST value of of the standard deviation
+       \item{\strong{NIST_Standard_Deviation} The NIST value of of the standard deviation
        for the data set, provided for reference}
-       \item{NIST_Autocorrelation_Coefficient}{Tne NIST value of of the population
+       \item{\strong{NIST_Autocorrelation_Coefficient} The NIST value of of the population
        lag-1 autocorrelation coefficient}
        }
 }
