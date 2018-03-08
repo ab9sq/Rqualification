@@ -10,6 +10,14 @@ The RQualification package provides three groups of functions and data to
 verify that R is preforming as expected against data sets from the national
 Institute of Standards and Techinology (NIST).
 }
+\section{Checking Functions}{
+
+   \itemize{
+      \item{\link{check.univariate} Checks For Correct Results of Univariate
+      Tests.}
+      }
+}
+
 \section{Univariate Statistics}{
 
    \itemize{

@@ -5,6 +5,12 @@
 #' verify that R is preforming as expected against data sets from the national
 #' Institute of Standards and Techinology (NIST).
 #'
+#' @section Checking Functions:
+#'    \itemize{
+#'       \item{\link{check.univariate} Checks For Correct Results of Univariate
+#'       Tests.}
+#'       }
+#'
 #' @section Univariate Statistics:
 #'    \itemize{
 #'       \item{\link{calculate.lew} This function calulates specific Univariate
