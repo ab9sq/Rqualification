@@ -55,6 +55,15 @@ test_that("values", {
      )
 })
 
+test_that("NIST Values", {
+     expect_identical(calculate.NumAcc4()$NIST_mean,
+                      10000000.2)
+     expect_identical(calculate.NumAcc4()$NIST_Standard_Deviation,
+                      0.1)
+     expect_identical(calculate.NumAcc4()$NIST_Autocorrelation_Coefficient,
+                      -0.999)
+})
+
 
 # ---------------------------------------------------------------NumAcc3
 context("NumAcc3 Univariate Statistics")
@@ -78,6 +87,15 @@ test_that("values", {
           calculate.NumAcc3()$Autocorrelation_Coefficient,
           calculate.NumAcc3()$NIST_Autocorrelation_Coefficient
      )
+})
+
+test_that("NIST Values", {
+     expect_identical(calculate.NumAcc3()$NIST_mean,
+                      1000000.2)
+     expect_identical(calculate.NumAcc3()$NIST_Standard_Deviation,
+                      0.1)
+     expect_identical(calculate.NumAcc3()$NIST_Autocorrelation_Coefficient,
+                      -0.999)
 })
 
 
@@ -105,6 +123,15 @@ test_that("values", {
      )
 })
 
+test_that("NIST Values", {
+     expect_identical(calculate.NumAcc2()$NIST_mean,
+                      1.2)
+     expect_identical(calculate.NumAcc2()$NIST_Standard_Deviation,
+                      0.1)
+     expect_identical(calculate.NumAcc2()$NIST_Autocorrelation_Coefficient,
+                      -0.999)
+})
+
 
 # ---------------------------------------------------------------NumAcc1
 context("NumAcc1 Univariate Statistics")
@@ -128,6 +155,15 @@ test_that("values", {
           calculate.NumAcc1()$Autocorrelation_Coefficient,
           calculate.NumAcc1()$NIST_Autocorrelation_Coefficient
      )
+})
+
+test_that("NIST Values", {
+     expect_identical(calculate.NumAcc1()$NIST_mean,
+                      10000002)
+     expect_identical(calculate.NumAcc1()$NIST_Standard_Deviation,
+                      1)
+     expect_identical(calculate.NumAcc1()$NIST_Autocorrelation_Coefficient,
+                      -0.5)
 })
 
 
@@ -155,6 +191,15 @@ test_that("values", {
      )
 })
 
+test_that("NIST Values", {
+     expect_identical(calculate.michelso()$NIST_mean,
+                      299.852400000000)
+     expect_identical(calculate.michelso()$NIST_Standard_Deviation,
+                      0.0790105478190518)
+     expect_identical(calculate.michelso()$NIST_Autocorrelation_Coefficient,
+                      0.535199668621283)
+})
+
 
 # ---------------------------------------------------------------mavro
 context("mavro Univariate Statistics")
@@ -178,6 +223,15 @@ test_that("values", {
           calculate.mavro()$Autocorrelation_Coefficient,
           calculate.mavro()$NIST_Autocorrelation_Coefficient
      )
+})
+
+test_that("NIST Values", {
+     expect_identical(calculate.mavro()$NIST_mean,
+                      2.00185600000000)
+     expect_identical(calculate.mavro()$NIST_Standard_Deviation,
+                      0.000429123454003053)
+     expect_identical(calculate.mavro()$NIST_Autocorrelation_Coefficient,
+                      0.937989183438248)
 })
 
 
@@ -205,6 +259,15 @@ test_that("values", {
      )
 })
 
+test_that("NIST Values", {
+     expect_identical(calculate.lottery()$NIST_mean,
+                      518.958715596330)
+     expect_identical(calculate.lottery()$NIST_Standard_Deviation,
+                      291.699727470969)
+     expect_identical(calculate.lottery()$NIST_Autocorrelation_Coefficient,
+                      -0.120948622967393)
+})
+
 
 # ---------------------------------------------------------------PiDigits
 context("PiDigits Univariate Statistics")
@@ -228,4 +291,14 @@ test_that("values", {
           calculate.PiDigits()$Autocorrelation_Coefficient,
           calculate.PiDigits()$NIST_Autocorrelation_Coefficient
      )
+})
+
+
+test_that("NIST Values", {
+     expect_identical(calculate.PiDigits()$NIST_mean,
+                      4.53480000000000)
+     expect_identical(calculate.PiDigits()$NIST_Standard_Deviation,
+                      2.86733906028871)
+     expect_identical(calculate.PiDigits()$NIST_Autocorrelation_Coefficient,
+                      -0.00355099287237972)
 })
