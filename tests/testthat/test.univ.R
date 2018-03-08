@@ -1,12 +1,13 @@
-context("Lew Univarent Statistics")
+# ---------------------------------------------------------------Lew
+context("lew Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.lew()), "1 obs")
      expect_output(str(calculate.lew()), "7 variables")
      expect_silent(calculate.lew())
+     expect_output(str(calculate.lew(), "data.frame"))
 })
 
-context("Checking results")
 test_that("values", {
      expect_equal(calculate.lew()$NIST, "Lew")
      expect_equal(calculate.lew()$mean, calculate.lew()$NIST_mean)
@@ -21,15 +22,15 @@ test_that("values", {
 })
 
 
+# ---------------------------------------------------------------NumAcc4
 context("NumAcc4 Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.NumAcc4()), "1 obs")
      expect_output(str(calculate.NumAcc4()), "7 variables")
      expect_silent(calculate.NumAcc4())
+     expect_output(str(calculate.NumAcc4(), "data.frame"))
 })
-
-context("Checking results")
 
 test_that("values", {
      expect_equal(calculate.NumAcc4()$NIST, "NumAcc4")
@@ -46,15 +47,15 @@ test_that("values", {
 })
 
 
+# ---------------------------------------------------------------NumAcc3
 context("NumAcc3 Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.NumAcc3()), "1 obs")
      expect_output(str(calculate.NumAcc3()), "7 variables")
      expect_silent(calculate.NumAcc3())
+     expect_output(str(calculate.NumAcc3(), "data.frame"))
 })
-
-context("Checking results")
 
 test_that("values", {
      expect_equal(calculate.NumAcc3()$NIST, "NumAcc3")
@@ -71,16 +72,15 @@ test_that("values", {
 })
 
 
-
+# ---------------------------------------------------------------NumAcc2
 context("NumAcc2 Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.NumAcc2()), "1 obs")
      expect_output(str(calculate.NumAcc2()), "7 variables")
      expect_silent(calculate.NumAcc2())
+     expect_output(str(calculate.NumAcc2(), "data.frame"))
 })
-
-context("Checking results")
 
 test_that("values", {
      expect_equal(calculate.NumAcc2()$NIST, "NumAcc2")
@@ -97,16 +97,15 @@ test_that("values", {
 })
 
 
-
+# ---------------------------------------------------------------NumAcc1
 context("NumAcc1 Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.NumAcc1()), "1 obs")
      expect_output(str(calculate.NumAcc1()), "7 variables")
      expect_silent(calculate.NumAcc1())
+     expect_output(str(calculate.NumAcc1(), "data.frame"))
 })
-
-context("Checking results")
 
 test_that("values", {
      expect_equal(calculate.NumAcc1()$NIST, "NumAcc1")
@@ -123,16 +122,15 @@ test_that("values", {
 })
 
 
-
+# ---------------------------------------------------------------michelso
 context("michelso Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.michelso()), "1 obs")
      expect_output(str(calculate.michelso()), "7 variables")
      expect_silent(calculate.michelso())
+     expect_output(str(calculate.michelso(), "data.frame"))
 })
-
-context("Checking results")
 
 test_that("values", {
      expect_equal(calculate.michelso()$NIST, "Michelso")
@@ -149,16 +147,15 @@ test_that("values", {
 })
 
 
-
+# ---------------------------------------------------------------mavro
 context("mavro Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.mavro()), "1 obs")
      expect_output(str(calculate.mavro()), "7 variables")
      expect_silent(calculate.mavro())
+     expect_output(str(calculate.mavro(), "data.frame"))
 })
-
-context("Checking results")
 
 test_that("values", {
      expect_equal(calculate.mavro()$NIST, "Mavro")
@@ -175,16 +172,15 @@ test_that("values", {
 })
 
 
-
+# ---------------------------------------------------------------lottery
 context("lottery Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.lottery()), "1 obs")
      expect_output(str(calculate.lottery()), "7 variables")
      expect_silent(calculate.lottery())
+     expect_output(str(calculate.lottery(), "data.frame"))
 })
-
-context("Checking results")
 
 test_that("values", {
      expect_equal(calculate.lottery()$NIST, "Lottery")
@@ -201,16 +197,15 @@ test_that("values", {
 })
 
 
-
+# --------------------------------------------------------------Pi Digits
 context("PiDigits Univarent Statistics")
 
 test_that("output", {
      expect_output(str(calculate.PiDigits()), "1 obs")
      expect_output(str(calculate.PiDigits()), "7 variables")
      expect_silent(calculate.PiDigits())
+     expect_output(str(calculate.PiDigits(), "data.frame"))
 })
-
-context("Checking results")
 
 test_that("values", {
      expect_equal(calculate.PiDigits()$NIST, "PiDigits")
