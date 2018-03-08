@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------Lew
-context("lew Univarent Statistics")
+context("lew Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.lew()), "1 obs")
@@ -21,9 +21,18 @@ test_that("values", {
      )
 })
 
+test_that("NIST Values", {
+     expect_identical(calculate.lew()$NIST_mean,
+                      -177.435000000000)
+     expect_identical(calculate.lew()$NIST_Standard_Deviation,
+                      277.332168044316)
+     expect_identical(calculate.lew()$NIST_Autocorrelation_Coefficient,
+                      -0.307304800605679)
+})
+
 
 # ---------------------------------------------------------------NumAcc4
-context("NumAcc4 Univarent Statistics")
+context("NumAcc4 Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.NumAcc4()), "1 obs")
@@ -48,7 +57,7 @@ test_that("values", {
 
 
 # ---------------------------------------------------------------NumAcc3
-context("NumAcc3 Univarent Statistics")
+context("NumAcc3 Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.NumAcc3()), "1 obs")
@@ -73,7 +82,7 @@ test_that("values", {
 
 
 # ---------------------------------------------------------------NumAcc2
-context("NumAcc2 Univarent Statistics")
+context("NumAcc2 Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.NumAcc2()), "1 obs")
@@ -98,7 +107,7 @@ test_that("values", {
 
 
 # ---------------------------------------------------------------NumAcc1
-context("NumAcc1 Univarent Statistics")
+context("NumAcc1 Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.NumAcc1()), "1 obs")
@@ -123,7 +132,7 @@ test_that("values", {
 
 
 # ---------------------------------------------------------------michelso
-context("michelso Univarent Statistics")
+context("michelso Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.michelso()), "1 obs")
@@ -148,7 +157,7 @@ test_that("values", {
 
 
 # ---------------------------------------------------------------mavro
-context("mavro Univarent Statistics")
+context("mavro Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.mavro()), "1 obs")
@@ -173,7 +182,7 @@ test_that("values", {
 
 
 # ---------------------------------------------------------------lottery
-context("lottery Univarent Statistics")
+context("lottery Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.lottery()), "1 obs")
@@ -197,8 +206,8 @@ test_that("values", {
 })
 
 
-# --------------------------------------------------------------Pi Digits
-context("PiDigits Univarent Statistics")
+# ---------------------------------------------------------------PiDigits
+context("PiDigits Univariate Statistics")
 
 test_that("output", {
      expect_output(str(calculate.PiDigits()), "1 obs")
