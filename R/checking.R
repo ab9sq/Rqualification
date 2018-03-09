@@ -28,7 +28,7 @@
 #'
 check.univariate <- function() {
      #setup
-     options(digits = 15)
+     options(digits = 22)
      machine.error <- .Machine$double.eps ^ 0.5
      version.tested <- paste("R Version tested:",
                              R.Version()$version.string,
