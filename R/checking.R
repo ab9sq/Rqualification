@@ -32,11 +32,9 @@ check.univariate <- function() {
    machine.error <- .Machine$double.eps ^ 0.5
    version.tested <- paste("R Version tested:",
                            R.Version()$version.string,
-                           R.Version()$nickname,
-                           sep = " ")
+                           R.Version()$nickname)
    date.tested <- paste("Date of test:",
-                        date(),
-                        sep = " ")
+                        date())
    results <- NULL
    results <- c(version.tested, date.tested)
    results <- c(results,
