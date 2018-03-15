@@ -1,4 +1,4 @@
-# ---------------------------------------------------------------Lew
+# <<<<<<<<<<<<<<<<<<<<Lew
 context("lew Univariate Statistics")
 
 test_that("output", {
@@ -31,7 +31,7 @@ test_that("NIST Values", {
 })
 
 
-# ---------------------------------------------------------------NumAcc4
+# <<<<<<<<<<<<<<<<<<<<NumAcc4
 context("NumAcc4 Univariate Statistics")
 
 test_that("output", {
@@ -65,7 +65,7 @@ test_that("NIST Values", {
 })
 
 
-# ---------------------------------------------------------------NumAcc3
+# <<<<<<<<<<<<<<<<<<<<NumAcc3
 context("NumAcc3 Univariate Statistics")
 
 test_that("output", {
@@ -99,7 +99,7 @@ test_that("NIST Values", {
 })
 
 
-# ---------------------------------------------------------------NumAcc2
+# <<<<<<<<<<<<<<<<<<<<NumAcc2
 context("NumAcc2 Univariate Statistics")
 
 test_that("output", {
@@ -133,7 +133,7 @@ test_that("NIST Values", {
 })
 
 
-# ---------------------------------------------------------------NumAcc1
+# <<<<<<<<<<<<<<<<<<<<NumAcc1
 context("NumAcc1 Univariate Statistics")
 
 test_that("output", {
@@ -167,7 +167,7 @@ test_that("NIST Values", {
 })
 
 
-# ---------------------------------------------------------------michelso
+# <<<<<<<<<<<<<<<<<<<<michelso
 context("michelso Univariate Statistics")
 
 test_that("output", {
@@ -201,7 +201,7 @@ test_that("NIST Values", {
 })
 
 
-# ---------------------------------------------------------------mavro
+# <<<<<<<<<<<<<<<<<<<<mavro
 context("mavro Univariate Statistics")
 
 test_that("output", {
@@ -235,7 +235,7 @@ test_that("NIST Values", {
 })
 
 
-# ---------------------------------------------------------------lottery
+# <<<<<<<<<<<<<<<<<<<<lottery
 context("lottery Univariate Statistics")
 
 test_that("output", {
@@ -269,7 +269,7 @@ test_that("NIST Values", {
 })
 
 
-# ---------------------------------------------------------------PiDigits
+# <<<<<<<<<<<<<<<<<<<<PiDigits
 context("PiDigits Univariate Statistics")
 
 test_that("output", {

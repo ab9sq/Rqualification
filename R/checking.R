@@ -86,7 +86,7 @@ check.univariate <- function() {
       # check standard deviation
       if (!(test.results$Standard_Deviation ==
             test.results$NIST_Standard_Deviation)) {
-         if ((
+         if ( (
             abs(
                test.results$Standard_Deviation -
                test.results$NIST_Standard_Deviation
@@ -153,7 +153,7 @@ check.univariate <- function() {
             )
             working <- c(working,
                          error.message)
-            difference <-test.results$Autocorrelation_Coefficient -
+            difference <- test.results$Autocorrelation_Coefficient -
                      test.results$NIST_Autocorrelation_Coefficient
             error.message <- paste("      The difference is; ",
                                    difference)
@@ -187,9 +187,9 @@ check.univariate <- function() {
       return(working)
    }
 
-   # >>>>>>>>>> start tests <<<<<<<<<<
+   # >>>>>>>>>>>>>>>>>> start tests <<<<<<<<<<<<<<<<<<<<
 
-   # -------------------------------------------------------      Lew
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Lew
    test.set <- "Lew"
    results <- c(results,
                 paste("running", test.set))
@@ -200,7 +200,7 @@ check.univariate <- function() {
                 results.hold,
                 " ")
 
-   # -------------------------------------------------------      NumAcc4
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NumAcc4
    test.set <- "NumAcc4"
    results <- c(results,
                 paste("running", test.set))
@@ -211,7 +211,7 @@ check.univariate <- function() {
                 results.hold,
                 " ")
 
-   # -------------------------------------------------------      NumAcc3
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NumAcc3
    test.set <- "NumAcc3"
    results <- c(results,
                 paste("running", test.set))
@@ -222,7 +222,7 @@ check.univariate <- function() {
                 results.hold,
                 " ")
 
-   # -------------------------------------------------------      NumAcc2
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NumAcc2
    test.set <- "NumAcc2"
    results <- c(results,
                 paste("running", test.set))
@@ -233,7 +233,7 @@ check.univariate <- function() {
                 results.hold,
                 " ")
 
-   # -------------------------------------------------------      NumAcc1
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NumAcc1
    test.set <- "NumAcc1"
    results <- c(results,
                 paste("running", test.set))
@@ -245,7 +245,7 @@ check.univariate <- function() {
                 results.hold,
                 " ")
 
-   # -------------------------------------------------------      Michelso
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Michelso
    test.set <- "Michelso"
    results <- c(results,
                 paste("running", test.set))
@@ -257,7 +257,7 @@ check.univariate <- function() {
                 results.hold,
                 " ")
 
-   # -------------------------------------------------------      Mavro
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Mavro
    test.set <- "Mavro"
    results <- c(results,
                 paste("running", test.set))
@@ -269,7 +269,7 @@ check.univariate <- function() {
                 results.hold,
                 " ")
 
-   # -------------------------------------------------------      Lottery
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Lottery
    test.set <- "Lottery"
    results <- c(results,
                 paste("running", test.set))
@@ -281,7 +281,7 @@ check.univariate <- function() {
                 results.hold,
                 " ")
 
-   # -------------------------------------------------------      Pi Digits
+   # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Pi Digits
    test.set <- "Pi Digits"
    results <- c(results,
                 paste("running", test.set))
