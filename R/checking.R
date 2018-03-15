@@ -57,9 +57,8 @@ check.univariate <- function() {
                                    test.set)
             working <- c(working,
                          error.message)
-            difference <-
-               abs(test.results$mean - test.results$NIST_mean)
-            error.message <- paste("     absolute difference is",
+            difference <- (test.results$mean - test.results$NIST_mean)
+            error.message <- paste("     The difference is:",
                                    difference)
             working <- c(working,
                          error.message,
@@ -74,9 +73,8 @@ check.univariate <- function() {
             )
             working <- c(working,
                          error.message)
-            difference <-
-               abs(test.results$mean - test.results$NIST_mean)
-            error.message <- paste("     absolute difference is",
+            difference <- (test.results$mean - test.results$NIST_mean)
+            error.message <- paste("      The difference is:",
                                    difference)
             working <- c(working,
                          error.message)
@@ -107,11 +105,9 @@ check.univariate <- function() {
             )
             working <- c(working,
                          error.message)
-            difference <- abs(
-               test.results$Standard_Deviation -
+            difference <- test.results$Standard_Deviation -
                   test.results$NIST_Standard_Deviation
-            )
-            error.message <- paste("     absolute difference is",
+            error.message <- paste("    The difference is:",
                                    difference)
             working <- c(working,
                          error.message,
@@ -126,11 +122,9 @@ check.univariate <- function() {
             )
             working <- c(working,
                          error.message)
-            difference <- abs(
-               test.results$Standard_Deviation -
+            difference <- test.results$Standard_Deviation -
                   test.results$NIST_Standard_Deviation
-            )
-            error.message <- paste("     absolute difference is",
+            error.message <- paste("      The difference is:",
                                    difference)
             working <- c(working,
                          error.message)
@@ -161,12 +155,9 @@ check.univariate <- function() {
             )
             working <- c(working,
                          error.message)
-            difference <-
-               abs(
-                  test.results$Autocorrelation_Coefficient -
+            difference <-test.results$Autocorrelation_Coefficient -
                      test.results$NIST_Autocorrelation_Coefficient
-               )
-            error.message <- paste("     absolute difference is",
+            error.message <- paste("      The difference is; ",
                                    difference)
             working <- c(working,
                          error.message,
@@ -181,12 +172,9 @@ check.univariate <- function() {
             )
             working <- c(working,
                          error.message)
-            difference <-
-               abs(
-                  test.results$Autocorrelation_Coefficient -
+            difference <- test.results$Autocorrelation_Coefficient -
                      test.results$NIST_Autocorrelation_Coefficient
-               )
-            error.message <- paste("     absolute difference is",
+            error.message <- paste("     The difference is:",
                                    difference)
             working <- c(working,
                          error.message)
