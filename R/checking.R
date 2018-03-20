@@ -134,7 +134,7 @@ check.univariate <- function() {
 
          } else {
             error.message <- paste(
-               "WARNING WARNING warning",
+               "WARNING WARNING WARNING",
                "Standard Deviation calculation not an exact match but within machine accuracy for",
                test.set
             )
