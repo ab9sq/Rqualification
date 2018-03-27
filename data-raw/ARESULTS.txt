@@ -1,0 +1,107 @@
+R Version tested: R version 3.4.4 (2018-03-15) Someone to Lean On
+Date of test: Tue Mar 20 14:15:13 2018
+ 
+degree of accuracy (or machine accuracy)  1.49011611938477e-08
+ 
+Running Lew data set
+Mean calculation agreed for Lew
+ 
+WARNING WARNING WARNING Standard Deviation calculation not an exact match but within machine accuracy for Lew
+      The difference is: 1.13686837721616e-13
+     The relative error is: 4.09930223829821e-14 %
+  
+Autocorrelation coefficient calculation agreed for Lew
+ 
+ 
+Running NumAcc4 data set
+Mean calculation agreed for NumAcc4
+ 
+WARNING WARNING WARNING Standard Deviation calculation not an exact match but within machine accuracy for NumAcc4
+      The difference is: 5.58793539218172e-10
+     The relative error is: 5.58793539218172e-07 %
+  
+WARNING WARNING WARNING Autocorrelation coefficient calculation not an exact match but within machine accuracy for NumAcc4
+     The difference is: -2.99760216648792e-15
+     The relative error is: 3.00060276925718e-13 %
+  
+ 
+Running NumAcc3 data set
+Mean calculation agreed for NumAcc3
+ 
+WARNING WARNING WARNING Standard Deviation calculation not an exact match but within machine accuracy for NumAcc3
+      The difference is: 3.49245909969653e-11
+     The relative error is: 3.49245909969653e-08 %
+  
+WARNING WARNING WARNING Autocorrelation coefficient calculation not an exact match but within machine accuracy for NumAcc3
+     The difference is: 4.9960036108132e-15
+     The relative error is: -5.00100461542863e-13 %
+  
+ 
+Running NumAcc2 data set
+Mean calculation agreed for NumAcc2
+ 
+WARNING WARNING WARNING Standard Deviation calculation not an exact match but within machine accuracy for NumAcc2
+      The difference is: -2.77555756156289e-17
+     The relative error is: -2.77555756156289e-14 %
+  
+WARNING WARNING WARNING Autocorrelation coefficient calculation not an exact match but within machine accuracy for NumAcc2
+     The difference is: 3.99680288865056e-15
+     The relative error is: -4.00080369234291e-13 %
+  
+ 
+Running NumAcc1 data set
+Mean calculation agreed for NumAcc1
+ 
+Standard Deviation calculation agreed for NumAcc1
+ 
+Autocorrelation coefficient calculation agreed for NumAcc1
+ 
+ 
+Running Michelso data set
+Mean calculation agreed for Michelso
+ 
+WARNING WARNING WARNING Standard Deviation calculation not an exact match but within machine accuracy for Michelso
+      The difference is: -1.13797860024079e-15
+     The relative error is: -1.44028693845657e-12 %
+  
+WARNING WARNING WARNING Autocorrelation coefficient calculation not an exact match but within machine accuracy for Michelso
+     The difference is: -1.99840144432528e-14
+     The relative error is: -3.73393625125614e-12 %
+  
+ 
+Running Mavro data set
+Mean calculation agreed for Mavro
+ 
+WARNING WARNING WARNING Standard Deviation calculation not an exact match but within machine accuracy for Mavro
+      The difference is: 3.24176449573166e-17
+     The relative error is: 7.55438665841041e-12 %
+  
+WARNING WARNING WARNING Autocorrelation coefficient calculation not an exact match but within machine accuracy for Mavro
+     The difference is: 1.69864122767649e-14
+     The relative error is: 1.8109390360452e-12 %
+  
+ 
+Running Lottery data set
+wARNING WARNING WARNING Mean calculation not an exact match but within machine accuracy for Lottery
+      The difference is: 3.41060513164848e-13
+     The relative error is: 6.57201628790335e-14 %
+  
+WARNING WARNING WARNING Standard Deviation calculation not an exact match but within machine accuracy for Lottery
+      The difference is: 1.13686837721616e-13
+     The relative error is: 3.89739266153173e-14 %
+  
+Autocorrelation coefficient calculation agreed for Lottery
+ 
+ 
+Running Pi Digits data set
+Mean calculation agreed for Pi Digits
+ 
+WARNING WARNING WARNING Standard Deviation calculation not an exact match but within machine accuracy for Pi Digits
+      The difference is: -1.77635683940025e-15
+     The relative error is: -6.19514051896392e-14 %
+  
+WARNING WARNING WARNING Autocorrelation coefficient calculation not an exact match but within machine accuracy for Pi Digits
+     The difference is: 3.40005801291454e-16
+     The relative error is: -9.57495026070264e-12 %
+  
+ 
