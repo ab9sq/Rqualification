@@ -415,4 +415,5 @@ check.univariate <- function(print = FALSE) {
       sink()
    }
    return(results)
+   # exd
 }
