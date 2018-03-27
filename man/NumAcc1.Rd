@@ -7,6 +7,9 @@
 \format{3 observation of 1 variable:}
 \source{
 \url{http://www.itl.nist.gov/div898/strd/univ/NumAcc1.html}
+
+#' @examples
+NumAcc1
 }
 \usage{
 NumAcc1

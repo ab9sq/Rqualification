@@ -32,4 +32,7 @@ This "real world" dataset is the result of a study by H.S. Lew of the Structures
     \strong{Standard Deviation} \tab 277.332168044316\cr
     \strong{Population lag-1 autocorrelation coefficient} \tab -0.307304800605679\cr}
 }
+\examples{
+Lew
+}
 \keyword{datasets}

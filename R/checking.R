@@ -26,7 +26,12 @@
 #'
 #' @export
 #'
-check.univariate <- function() {
+check.univariate <- function(print = FALSE) {
+   # passed Parmater test
+   if(!(is.logical(print))){
+      warning("The value of 'print' must be logical.")
+      print <- FALSE
+   }
    #setup
    options(digits = 22)
    machine.error <- .Machine$double.eps ^ 0.5
@@ -42,6 +47,9 @@ check.univariate <- function() {
                 paste("degree of accuracy (or machine accuracy) ",
                       machine.error),
                 " ")
+
+   # >>>>>>>>>>>>>>> FUNCTIONS <<<<<<<<<<<<<<<
+
    # testing function
    check <- function(test.results, test.set) {
       working <- NULL
@@ -229,6 +237,31 @@ check.univariate <- function() {
       return(working)
    }
 
+   # Results output function
+   test.Results.Output <- function(test.results = NULL){
+
+      working <- NULL
+      working <- "     The calculated results:"
+      hold <- c(paste("          Mean = ",
+                    test.results$mean),
+                    paste("          Standard Deviation = ",
+                    test.results$Standard_Deviation),
+                    paste("          Autocorrelation Coefficient = ",
+                    test.results$Autocorrelation_Coefficient))
+      working <- c(working,
+                   hold,
+                   "     The NIST values:")
+      hold <- c(paste("          Mean = ",
+                    test.results$NIST_mean),
+                    paste("          Standard Deviation = ",
+                    test.results$NIST_Standard_Deviation),
+                    paste("          Autocorrelation Coefficient = ",
+                    test.results$NIST_Autocorrelation_Coefficient))
+      working <- c(working,
+                   hold)
+      return(working)
+   }
+
    # >>>>>>>>>>>>>>>>>> start tests <<<<<<<<<<<<<<<<<<<<
 
    # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Lew
@@ -236,6 +269,11 @@ check.univariate <- function() {
    results <- c(results,
                 paste("Running", test.set, "data set"))
    test.results <- calculate.lew()
+
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
+
    results.hold <-
       check(test.results = test.results, test.set = test.set)
    results <- c(results,
@@ -247,6 +285,11 @@ check.univariate <- function() {
    results <- c(results,
                 paste("Running", test.set, "data set"))
    test.results <- calculate.NumAcc4()
+
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
+
    results.hold <-
       check(test.results = test.results, test.set = test.set)
    results <- c(results,
@@ -258,6 +301,11 @@ check.univariate <- function() {
    results <- c(results,
                 paste("Running", test.set, "data set"))
    test.results <- calculate.NumAcc3()
+
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
+
    results.hold <-
       check(test.results = test.results, test.set = test.set)
    results <- c(results,
@@ -269,6 +317,11 @@ check.univariate <- function() {
    results <- c(results,
                 paste("Running", test.set, "data set"))
    test.results <- calculate.NumAcc2()
+
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
+
    results.hold <-
       check(test.results = test.results, test.set = test.set)
    results <- c(results,
@@ -280,6 +333,10 @@ check.univariate <- function() {
    results <- c(results,
                 paste("Running", test.set, "data set"))
    test.results <- calculate.NumAcc1()
+
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
 
    results.hold <-
       check(test.results = test.results, test.set = test.set)
@@ -293,6 +350,10 @@ check.univariate <- function() {
                 paste("Running", test.set, "data set"))
    test.results <- calculate.michelso()
 
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
+
    results.hold <-
       check(test.results = test.results, test.set = test.set)
    results <- c(results,
@@ -304,6 +365,10 @@ check.univariate <- function() {
    results <- c(results,
                 paste("Running", test.set, "data set"))
    test.results <- calculate.mavro()
+
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
 
    results.hold <-
       check(test.results = test.results, test.set = test.set)
@@ -317,6 +382,12 @@ check.univariate <- function() {
                 paste("Running", test.set, "data set"))
    test.results <- calculate.lottery()
 
+
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
+
+
    results.hold <-
       check(test.results = test.results, test.set = test.set)
    results <- c(results,
@@ -329,10 +400,19 @@ check.univariate <- function() {
                 paste("Running", test.set, "data set"))
    test.results <- calculate.PiDigits()
 
+   results.hold <- test.Results.Output(test.results = test.results)
+   results <- c(results,
+                results.hold)
+
    results.hold <-
       check(test.results = test.results, test.set = test.set)
    results <- c(results,
                 results.hold,
                 " ")
+   if(print == TRUE){
+      sink(file = "univariate_results.txt")
+      results
+      sink()
+   }
    return(results)
 }

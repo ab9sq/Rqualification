@@ -23,6 +23,9 @@
 #' @format 200 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/lew.html}
+#'
+#' @examples
+#' Lew
 "Lew"
 
 
@@ -55,6 +58,9 @@
 #' @format 1001 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/numacc4.html}
+#'
+#' @examples
+#' NumAcc4
 "NumAcc4"
 
 
@@ -85,6 +91,9 @@
 #' @format 1001 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/numacc3.html}
+#'
+#' @examples
+#' NumAcc3
 "NumAcc3"
 
 
@@ -114,6 +123,9 @@
 #' @format 101 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/numacc2.html}
+#'
+#' #' @examples
+#' NumAcc2
 "NumAcc2"
 
 
@@ -144,6 +156,9 @@
 #' @format 3 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/NumAcc1.html}
+#'
+#' #' @examples
+#' NumAcc1
 "NumAcc1"
 
 
@@ -171,6 +186,9 @@
 #' @format 100 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/Michelso.html}
+#'
+#' #' @examples
+#' Michelso
 "Michelso"
 
 
@@ -199,6 +217,9 @@
 #' @format 50 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/Mavro.html}
+#'
+#' #' @examples
+#' Mavro
 "Mavro"
 
 
@@ -229,6 +250,9 @@
 #' @format 218 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/lottery.html}
+#'
+#' #' @examples
+#' Lottery
 "Lottery"
 
 
@@ -258,4 +282,7 @@
 #' @format 218 observation of 1 variable:
 #'
 #' @source \url{http://www.itl.nist.gov/div898/strd/univ/pidigits.html}
+#'
+#' #' @examples
+#' PiDigits
 "PiDigits"

@@ -7,6 +7,9 @@
 \format{50 observation of 1 variable:}
 \source{
 \url{http://www.itl.nist.gov/div898/strd/univ/Mavro.html}
+
+#' @examples
+Mavro
 }
 \usage{
 Mavro

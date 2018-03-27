@@ -7,6 +7,9 @@
 \format{218 observation of 1 variable:}
 \source{
 \url{http://www.itl.nist.gov/div898/strd/univ/pidigits.html}
+
+#' @examples
+PiDigits
 }
 \usage{
 PiDigits

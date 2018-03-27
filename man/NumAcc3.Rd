@@ -34,4 +34,7 @@ This generated/fabricated dataset consists of 1001 8-digit floating-point
     \strong{Standard Deviation} \tab 0.1 (exact)\cr
     \strong{Population lag-1 autocorrelation coefficient} \tab -0.999 (exact)\cr}
 }
+\examples{
+NumAcc3
+}
 \keyword{datasets}

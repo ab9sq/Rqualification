@@ -7,6 +7,9 @@
 \format{100 observation of 1 variable:}
 \source{
 \url{http://www.itl.nist.gov/div898/strd/univ/Michelso.html}
+
+#' @examples
+Michelso
 }
 \usage{
 Michelso
