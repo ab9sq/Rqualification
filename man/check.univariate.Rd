@@ -4,7 +4,7 @@
 \alias{check.univariate}
 \title{Checks For Correct Results of Univariate Tests.}
 \usage{
-check.univariate(print = FALSE)
+check.univariate()
 }
 \value{
 The function returns a vector that shows the version of R the test
