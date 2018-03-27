@@ -1,5 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^CONTRIBUTING\.ms$
 ^CONTRIBUTING\.md$
 ^CONDUCT\.md$
+^data-raw$
+^README\.md$
+^\.travis\.yml$
+^test\.R$
+^cran-comments\.md$
