@@ -3,9 +3,7 @@
 \name{check.univariate}
 \alias{check.univariate}
 \title{Checks For Correct Results of Univariate Tests.}
-\usage{
-check.univariate(print = FALSE)
-}
+\usage{check.univariate()}
 \value{
 The function returns a vector that shows the version of R the test
 was conducted on, the data and time the test was started, the machine

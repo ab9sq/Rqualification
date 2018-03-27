@@ -308,19 +308,5 @@ context("Check univ")
 
 test_that("output", {
    expect_silent(check.univariate())
-   expect_silent(check.univariate(print = FALSE))
-   expect_silent(check.univariate(print = F))
-   expect_silent(check.univariate(print = TRUE))
-   expect_silent(check.univariate(print = T))
-   expect_silent(check.univariate(FALSE))
-   expect_silent(check.univariate(F))
-   expect_silent(check.univariate(T))
-   expect_silent(check.univariate(TRUE))
    expect_output(str(check.univariate()), "chr")
-})
-
-test_that("Error Trapping", {
-   expect_warning(check.univariate(print = 1))
-   expect_warning(check.univariate(print = "A"))
-
 })

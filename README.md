@@ -8,4 +8,4 @@ This is the initial development effort
 Version 0.0.0.9000 and all development will occure on that branch.
 
 
-MOre detials to follow
+More detials to follow

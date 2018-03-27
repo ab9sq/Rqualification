@@ -26,12 +26,8 @@
 #'
 #' @export
 #'
-check.univariate <- function(print = FALSE) {
-   # passed Parmater test
-   if(!(is.logical(print))){
-      warning("The value of 'print' must be logical.")
-      print <- FALSE
-   }
+
+check.univariate <- function() {
    #setup
    options(digits = 22)
    machine.error <- .Machine$double.eps ^ 0.5
@@ -409,11 +405,6 @@ check.univariate <- function(print = FALSE) {
    results <- c(results,
                 results.hold,
                 " ")
-   if(print == TRUE){
-      sink(file = "univariate_results.txt")
-      results
-      sink()
-   }
    return(results)
    # exd
 }
