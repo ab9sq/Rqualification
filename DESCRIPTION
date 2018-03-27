@@ -2,8 +2,7 @@ Package: RQualification
 Title: A series of function to test R against NIST data sets
 Version: 0.1.1
 Authors@R: c(person("Nick", "Lauerman", email = "nicholas.lauerman@gmail.com", 
-    role = c("aut", "cre", "cph")),
-    person("Kim", "Lauerman", role = "ctb"))
+    role = c("aut", "cre", "cph")))
 Description: Functions to test R against NIST statisitical data sets. The data
     sets include univeriant, linerar and non linear regression.
 Depends: R (>= 3.0)
