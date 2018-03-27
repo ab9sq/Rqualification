@@ -36,7 +36,7 @@
 #'
 
 calculate.lew <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::Lew$V1)
      s <- stats::sd(RQualification::Lew$V1)
      auto <- stats::acf(RQualification::Lew$V1, plot = F, lag.max = 1)
@@ -91,7 +91,7 @@ calculate.lew <- function() {
 #'
 
 calculate.NumAcc4 <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::NumAcc4$V1)
      s <- stats::sd(RQualification::NumAcc4$V1)
      auto <- stats::acf(RQualification::NumAcc4$V1, plot = F, lag.max = 1)
@@ -146,7 +146,7 @@ calculate.NumAcc4 <- function() {
 #'
 
 calculate.NumAcc3 <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::NumAcc3$V1)
      s <- stats::sd(RQualification::NumAcc3$V1)
      auto <- stats::acf(RQualification::NumAcc3$V1, plot = F, lag.max = 1)
@@ -201,7 +201,7 @@ calculate.NumAcc3 <- function() {
 #'
 
 calculate.NumAcc2 <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::NumAcc2$V1)
      s <- stats::sd(RQualification::NumAcc2$V1)
      auto <- stats::acf(RQualification::NumAcc2$V1, plot = F, lag.max = 1)
@@ -256,7 +256,7 @@ calculate.NumAcc2 <- function() {
 #'
 
 calculate.NumAcc1 <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::NumAcc1$V1)
      s <- stats::sd(RQualification::NumAcc1$V1)
      auto <- stats::acf(RQualification::NumAcc1$V1, plot = F, lag.max = 1)
@@ -312,7 +312,7 @@ calculate.NumAcc1 <- function() {
 #'
 
 calculate.michelso <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::Michelso$V1)
      s <- stats::sd(RQualification::Michelso$V1)
      auto <- stats::acf(RQualification::Michelso$V1, plot = F, lag.max = 1)
@@ -367,7 +367,7 @@ calculate.michelso <- function() {
 #'
 
 calculate.mavro <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::Mavro$V1)
      s <- stats::sd(RQualification::Mavro$V1)
      auto <- stats::acf(RQualification::Mavro$V1, plot = F, lag.max = 1)
@@ -422,7 +422,7 @@ calculate.mavro <- function() {
 #'
 
 calculate.lottery <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::Lottery$V1)
      s <- stats::sd(RQualification::Lottery$V1)
      auto <- stats::acf(RQualification::Lottery$V1, plot = F, lag.max = 1)
@@ -476,7 +476,7 @@ calculate.lottery <- function() {
 #'
 
 calculate.PiDigits <- function() {
-     options(digits = 15)
+     options(digits = 22)
      m <- base::mean(RQualification::PiDigits$V1)
      s <- stats::sd(RQualification::PiDigits$V1)
      auto <- stats::acf(RQualification::PiDigits$V1, plot = F, lag.max = 1)
