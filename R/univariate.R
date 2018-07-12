@@ -1,5 +1,6 @@
 #' Univariate analysis of Lew data set.
 #'
+#'
 #' \code{calculate.lew} returns specifed univariate statistics.
 #'
 #' This function calulates specific Univariate statistics from the NIST

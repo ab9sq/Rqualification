@@ -1,6 +1,7 @@
 #package
 #' RQualification: A package to compute NIST Statistical Data Sets.
 #'
+#'
 #' The RQualification package provides three groups of functions and data to
 #' verify that R is preforming as expected against data sets from the national
 #' Institute of Standards and Techinology (NIST).

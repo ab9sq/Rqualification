@@ -19,6 +19,7 @@
 #' errors encountered.
 #'
 #'
+#'
 #' @examples
 #' check.univariate()
 #'
