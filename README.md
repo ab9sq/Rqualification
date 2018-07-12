@@ -9,3 +9,5 @@ Version 0.0.0.9000 and all development will occure on that branch.
 
 
 More detials to follow
+
+Updated 50 R version 3.5.1
